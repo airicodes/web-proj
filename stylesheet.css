@@ -1,0 +1,774 @@
+/* css used for all pages */
+
+.container {
+  background-color: #1d1d1d;
+}
+
+#rmscrollbar {
+  overflow: hidden !important;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.asideright {
+  position: absolute;
+  left: 14%;
+  top: -10%;
+  image-resolution: 100px;
+  height: 1064px;
+  width: auto;
+  border: 3px solid #fff;
+  opacity: 0.2;
+}
+
+#leftside {
+  background-color: #1d1d1d;
+}
+
+#navdude {
+  position: absolute;
+  top: 9px;
+  left: 40px;
+  width: 200px;
+}
+
+#navbarline {
+  font-size: 300px;
+  border-left: 5px solid #ddd;
+  height: 456px;
+  position: absolute;
+  left: 250px;
+  top: 230px;
+  border-radius: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar.choices {
+  color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px;
+  height: 20px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+  text-decoration: none;
+}
+
+.welcomepage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.poemspage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.gamepage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.goalspage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.profilepage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.foodpage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.musicpage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+.regpage.nav:hover {
+  color: rgb(255, 177, 210);
+}
+
+/* Welcome page */
+
+#Welcome {
+  font-size: 40px;
+  top: 40%;
+  left: 20%;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 177, 210);
+  font-style: oblique;
+  text-decoration: none;
+}
+
+#footer {
+  color: rgb(243, 38, 38);
+  position: absolute;
+  bottom: 0%;
+  left: 92%;
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #b82424dc;
+  }
+
+  to {
+    text-shadow: 0 0 5px #f7eded, 0 0 5px #c73434, 0 0 5px #f7eded, 0 0 5px #f7eded
+  }
+}
+
+/* Profile page */
+
+#para {
+  top: 50px;
+  font-size: 70px;
+  width: 1500px;
+  margin-left: -42.5%;
+  margin-top: 10%;
+  padding-left: 1px;
+  color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profiletable {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+#asiderightfix {
+  position: absolute;
+  left: 13.9%;
+  top: -10%;
+  image-resolution: 100px;
+  height: 1064px;
+  width: auto;
+  border: 3px solid #fff;
+  opacity: 0.2;
+}
+
+.profilepage.current {
+  color: rgb(212, 129, 164);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profilepn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 11px 16px;
+  color: white;
+  position: absolute;
+  size: 50px;
+  margin-top: 700px;
+  margin-left: 1000px;
+  font-size: 40px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+#whoami {
+  text-align: center;
+  font-size: 130px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 1000px;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: -10%;
+  left: -27%;
+  color: rgb(212, 129, 164);
+}
+
+#pinkword {
+  color: #d481a4;
+  text-decoration: none;
+}
+
+/* Goals page */
+
+#goals {
+  color: rgb(212, 129, 164);
+  ;
+  position: absolute;
+  left: 650px;
+  top: -100px;
+  font-size: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+  border: 2px solid black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 40px;
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+}
+
+.biggerbtn {
+  border: 2px solid black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 40px;
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+}
+
+.swe {
+  border-color: #ffffff;
+  color: rgb(255, 177, 210);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 100px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.swe:hover {
+  background: rgb(199, 121, 155);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.health {
+  border-color: #ffffff;
+  color: #ffb1d2;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 100px;
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+
+.health:hover {
+  background: rgb(199, 121, 155);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#coding {
+  position: absolute;
+  bottom: -1000px;
+  height: 1000px;
+  width: 2000px;
+  opacity: 0.2;
+}
+
+#rmscrollbar {
+  overflow: hidden !important;
+}
+
+.link {
+  text-decoration: none;
+}
+
+#rmxscrollbar {
+  overflow-x: hidden;
+}
+
+#cgoaltitle {
+  position: absolute;
+  bottom: -30%;
+  font-size: 100px;
+  left: 57%;
+  color: #ddd;
+  width: 1000px;
+  transform: translate(-50%, -50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cgoaldesc {
+  position: absolute;
+  bottom: -110%;
+  width: 1100px;
+  font-size: 60px;
+  left: 57%;
+  color: #ddd;
+  transform: translate(-50%, -50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#healthgif {
+  position: absolute;
+  bottom: -2000px;
+  height: 1000px;
+  width: 2000px;
+  opacity: 0.1;
+}
+
+#nextpart {
+  position: absolute;
+  bottom: -900px;
+  left: 53%;
+  height: 80px;
+  width: 100px;
+}
+
+#hgoaltitle {
+  position: absolute;
+  bottom: -130%;
+  font-size: 100px;
+  left: 57%;
+  color: #ddd;
+  transform: translate(-50%, -50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hgoaldesc {
+  position: absolute;
+  bottom: -220%;
+  width: 1100px;
+  font-size: 60px;
+  left: 57%;
+  color: #ddd;
+  transform: translate(-50%, -50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.goalspage.current {
+  color: rgb(212, 129, 164);
+}
+
+
+#goback {
+  position: absolute;
+  bottom: -1900px;
+  left: 53%;
+  height: 80px;
+  width: 100px;
+}
+
+/* Registration page */
+
+#formbg {
+  position: absolute;
+  left: 790px;
+  top: 10%;
+  height: 80%;
+  border: 4px solid #f1f1f1;
+}
+
+.formthing input[type=text] {
+  width: 100%;
+  position: absolute;
+  left: -12px;
+  top: 200px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: #1d1d1d;
+}
+
+.formthing input[type=date] {
+  width: 100%;
+  position: absolute;
+  left: -12px;
+  top: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: #1d1d1d;
+}
+
+.formthing input[type=email] {
+  width: 100%;
+  position: absolute;
+  left: -12px;
+  top: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: #1d1d1d;
+}
+
+.formthing input[type=password] {
+  width: 100%;
+  position: absolute;
+  left: -12px;
+  top: 500px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  color: #1d1d1d;
+}
+
+.date {
+  position: absolute;
+  top: 270px;
+  left: -12px;
+  color: white;
+}
+
+.fname {
+  position: absolute;
+  left: -12px;
+  top: 170px;
+}
+
+.email {
+  position: absolute;
+  left: -12px;
+  top: 370px;
+}
+
+.pwd {
+  position: absolute;
+  left: -12px;
+  top: 470px;
+}
+
+.submit {
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 343px;
+  position: absolute;
+  left: -12px;
+  top: 600px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formthing {
+  position: absolute;
+  left: 900px;
+  top: 11%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f1f1f1;
+  font-size: 30px;
+
+}
+
+.formpn {
+  text-decoration: none;
+  padding: 25px 16px;
+  color: white;
+  position: relative;
+  size: 50px;
+  margin-top: 200px;
+  margin-left: 700px;
+  font-size: 400px;
+}
+
+.regpage.current {
+  color: rgb(212, 129, 164);
+}
+
+#bgregistration {
+  height: 980px;
+  width: 2500px;
+  position: absolute;
+  left: 14%;
+  margin-top: -50px;
+  background-color: rgb(49, 33, 40);
+}
+
+#wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+/* Food page */
+
+.foodpage.current {
+  color: rgb(212, 129, 164);
+}
+
+#titlefood {
+  color: rgb(212, 129, 164);
+  ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  font-size: 100px;
+  left: 600px;
+  top: 10px;
+}
+
+#sushipic {
+  position: absolute;
+  left: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  top: 250px;
+}
+
+#sushidesc {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  left: 629px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.food.sushi {
+  border: 5px solid #1d1d1d;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.food.shawarma {
+  border: 5px solid #1d1d1d;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+#shawarmapic {
+  position: absolute;
+  left: 1250px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  width: 500px;
+  top: 250px;
+}
+
+#shawarmadesc {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  left: 950px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Music page */
+
+.musicpage.current {
+  color: rgb(212, 129, 164);
+}
+
+#titlemusic {
+  color: rgb(212, 129, 164);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  font-size: 100px;
+  left: 350px;
+  width: 1500px;
+  top: 10px;
+}
+
+#kudavid {
+  position: absolute;
+  left: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  top: 250px;
+}
+
+#kudadesc {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 722px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#francevid {
+  position: absolute;
+  left: 1413px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  top: 250px;
+}
+
+#francedesc {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 1110px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#jazzvid {
+  position: absolute;
+  left: 800px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 250px;
+  width: 400px;
+  top: 650px;
+}
+
+#jazzdesc {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 1050px;
+  top: 650px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Games page */
+
+.gamepage.current {
+  color: rgb(212, 129, 164);
+}
+
+#titlegame {
+  color: rgb(212, 129, 164);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  font-size: 100px;
+  left: 350px;
+  width: 1500px;
+  top: 10px;
+}
+
+#mhwvid {
+  position: absolute;
+  left: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  top: 250px;
+}
+
+#mhwdesc {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 722px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mcvid {
+  position: absolute;
+  left: 1413px;
+  border: 2px solid rgb(212, 129, 164);
+  height: 400px;
+  top: 250px;
+}
+
+#mcdesc {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 1110px;
+  top: 300px;
+  border: 2px solid rgb(212, 129, 164);
+  white-space: pre-line;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mcgif {
+  position: absolute;
+  left: 700px;
+  height: 300px;
+  width: 600px;
+  top: 650px;
+}
+
+/* Poem page */
+
+.poempage.current {
+  color: rgb(212, 129, 164);
+}
+
+#titlepoem {
+  color: rgb(212, 129, 164);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  font-size: 100px;
+  left: 370px;
+  width: 1500px;
+  top: 10px;
+}
+
+.quote.one {
+  position: absolute;
+  height: 250px;
+  width: 670px;
+  left: 1110px;
+  top: 200px;
+  font-size: 50px;
+  color: rgb(216, 216, 216);
+  white-space: pre-line;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote.two {
+  position: absolute;
+  height: 250px;
+  width: 670px;
+  left: 400px;
+  top: 100px;
+  font-size: 50px;
+  color: rgb(216, 216, 216);
+  white-space: pre-line;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote.three {
+  position: absolute;
+  height: 250px;
+  width: 1000px;
+  left: 400px;
+  top: 400px;
+  font-size: 50px;
+  color: rgb(216, 216, 216);
+  white-space: pre-line;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote.four {
+  position: absolute;
+  height: 250px;
+  width: 1000px;
+  left: 800px;
+  top: 600px;
+  font-size: 50px;
+  color: rgb(216, 216, 216);
+  white-space: pre-line;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
